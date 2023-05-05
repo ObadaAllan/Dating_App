@@ -37,9 +37,6 @@ namespace API.Data.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Intrests")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Introduction")
                         .HasColumnType("TEXT");
 
@@ -59,6 +56,9 @@ namespace API.Data.Migrations
                         .HasColumnType("BLOB");
 
                     b.Property<string>("UserName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("interests")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

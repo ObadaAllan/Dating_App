@@ -25,7 +25,7 @@ namespace API.DTOs
 
         public string LookingFor { get; set; }
 
-        public string Intrests { get; set; }
+        public string interests { get; set; }
 
         public string City { get; set; }
 
